@@ -6,7 +6,7 @@ import joblib
 # Load trained ML model
 @st.cache_resource
 def load_model():
-    return joblib.load("heart_status_model.joblib")
+    return joblib.load("bidmc_random_forest_demo_classifier.joblib")
 
 model = load_model()
 
